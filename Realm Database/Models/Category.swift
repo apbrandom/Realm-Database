@@ -10,8 +10,8 @@ import RealmSwift
 
 class Category: Object {
     @Persisted(primaryKey: true) var name: String
-    var quotes: LinkingObjects<Quote> {
-            return LinkingObjects(fromType: Quote.self, property: "category")
+    var quotes: LinkingObjects<QuoteRealm> {
+            return LinkingObjects(fromType: QuoteRealm.self, property: "category")
         }
 }
 

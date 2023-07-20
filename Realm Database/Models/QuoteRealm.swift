@@ -8,15 +8,15 @@
 import RealmSwift
 import Foundation
 
-class Quote: Object {
+class QuoteRealm: Object {
     @Persisted(primaryKey: true) var id: String
-    @Persisted var icon_url: String
-    @Persisted var url: String
+//    @Persisted var icon_url: String
+//    @Persisted var url: String
     @Persisted var value: String
-//    @Persisted var category: Category?
-    @Persisted var careatedAt: Data = Data()
+    @Persisted var category: Category?
+    @Persisted var careatedAt: Date = Date()
     
     override static func primaryKey() -> String? {
-            return "id"
-        }
+        return "id"
+    }
 }

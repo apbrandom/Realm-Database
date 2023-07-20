@@ -44,7 +44,7 @@ class QuoteViewController: UIViewController {
         let quote = QuoteRealm()
         quote.id = quoteResponse.id
         quote.value = quoteResponse.value
-        quote.careatedAt = Date()
+        quote.createdAt = Date()
         
         do {
             let realm = try Realm()

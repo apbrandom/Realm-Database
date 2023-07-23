@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB7A65FE2A6C447F007F825B /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A65FD2A6C447F007F825B /* CategoryList.swift */; };
+		CB7A66002A6C4D22007F825B /* ChuckNorrisURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A65FF2A6C4D22007F825B /* ChuckNorrisURL.swift */; };
+		CB7A66022A6D50FE007F825B /* QuoteViewController+Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A66012A6D50FE007F825B /* QuoteViewController+Picker.swift */; };
+		CB7A66042A6D7C50007F825B /* QuotesCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A66032A6D7C50007F825B /* QuotesCategoryTableViewController.swift */; };
 		CBA2B72F2A66BE31008823A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B72E2A66BE31008823A8 /* AppDelegate.swift */; };
 		CBA2B7312A66BE31008823A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B7302A66BE31008823A8 /* SceneDelegate.swift */; };
-		CBA2B7332A66BE31008823A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B7322A66BE31008823A8 /* ViewController.swift */; };
 		CBA2B7362A66BE31008823A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2B7342A66BE31008823A8 /* Main.storyboard */; };
 		CBA2B7382A66BE34008823A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA2B7372A66BE34008823A8 /* Assets.xcassets */; };
 		CBA2B73B2A66BE34008823A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2B7392A66BE34008823A8 /* LaunchScreen.storyboard */; };
+		CBA2B7442A683A1C008823A8 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CBA2B7432A683A1C008823A8 /* Realm */; };
+		CBA2B7462A683A1C008823A8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CBA2B7452A683A1C008823A8 /* RealmSwift */; };
+		CBA2B74B2A684C22008823A8 /* QuoteRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B74A2A684C22008823A8 /* QuoteRealm.swift */; };
+		CBA2B74D2A684EDA008823A8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B74C2A684EDA008823A8 /* Category.swift */; };
+		CBA2B7502A69585C008823A8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B74F2A69585C008823A8 /* NetworkService.swift */; };
+		CBA2B7522A695F6A008823A8 /* QuoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B7512A695F6A008823A8 /* QuoteResponse.swift */; };
+		CBA2B7542A6965CA008823A8 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B7532A6965CA008823A8 /* RealmService.swift */; };
+		CBA2B7572A698CFD008823A8 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B7562A698CFD008823A8 /* QuoteViewController.swift */; };
+		CBA2B7592A699F27008823A8 /* QuotesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B7582A699F27008823A8 /* QuotesListTableViewController.swift */; };
+		CBA2B75B2A69AAD7008823A8 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B75A2A69AAD7008823A8 /* CategoriesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB7A65FD2A6C447F007F825B /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		CB7A65FF2A6C4D22007F825B /* ChuckNorrisURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisURL.swift; sourceTree = "<group>"; };
+		CB7A66012A6D50FE007F825B /* QuoteViewController+Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuoteViewController+Picker.swift"; sourceTree = "<group>"; };
+		CB7A66032A6D7C50007F825B /* QuotesCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesCategoryTableViewController.swift; sourceTree = "<group>"; };
 		CBA2B72B2A66BE31008823A8 /* Realm Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realm Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA2B72E2A66BE31008823A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBA2B7302A66BE31008823A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CBA2B7322A66BE31008823A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBA2B7352A66BE31008823A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBA2B7372A66BE34008823A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBA2B73A2A66BE34008823A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBA2B73C2A66BE34008823A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA2B74A2A684C22008823A8 /* QuoteRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRealm.swift; sourceTree = "<group>"; };
+		CBA2B74C2A684EDA008823A8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CBA2B74F2A69585C008823A8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CBA2B7512A695F6A008823A8 /* QuoteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteResponse.swift; sourceTree = "<group>"; };
+		CBA2B7532A6965CA008823A8 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		CBA2B7562A698CFD008823A8 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		CBA2B7582A699F27008823A8 /* QuotesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListTableViewController.swift; sourceTree = "<group>"; };
+		CBA2B75A2A69AAD7008823A8 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA2B7462A683A1C008823A8 /* RealmSwift in Frameworks */,
+				CBA2B7442A683A1C008823A8 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +84,48 @@
 			children = (
 				CBA2B72E2A66BE31008823A8 /* AppDelegate.swift */,
 				CBA2B7302A66BE31008823A8 /* SceneDelegate.swift */,
-				CBA2B7322A66BE31008823A8 /* ViewController.swift */,
+				CBA2B74E2A695838008823A8 /* Services */,
+				CBA2B7552A698B6C008823A8 /* Controllers */,
+				CBA2B7492A684BFD008823A8 /* Models */,
 				CBA2B7342A66BE31008823A8 /* Main.storyboard */,
 				CBA2B7372A66BE34008823A8 /* Assets.xcassets */,
 				CBA2B7392A66BE34008823A8 /* LaunchScreen.storyboard */,
 				CBA2B73C2A66BE34008823A8 /* Info.plist */,
 			);
 			path = "Realm Database";
+			sourceTree = "<group>";
+		};
+		CBA2B7492A684BFD008823A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CBA2B74A2A684C22008823A8 /* QuoteRealm.swift */,
+				CBA2B74C2A684EDA008823A8 /* Category.swift */,
+				CBA2B7512A695F6A008823A8 /* QuoteResponse.swift */,
+				CB7A65FD2A6C447F007F825B /* CategoryList.swift */,
+				CB7A65FF2A6C4D22007F825B /* ChuckNorrisURL.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CBA2B74E2A695838008823A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CBA2B74F2A69585C008823A8 /* NetworkService.swift */,
+				CBA2B7532A6965CA008823A8 /* RealmService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CBA2B7552A698B6C008823A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBA2B7562A698CFD008823A8 /* QuoteViewController.swift */,
+				CB7A66012A6D50FE007F825B /* QuoteViewController+Picker.swift */,
+				CBA2B7582A699F27008823A8 /* QuotesListTableViewController.swift */,
+				CBA2B75A2A69AAD7008823A8 /* CategoriesTableViewController.swift */,
+				CB7A66032A6D7C50007F825B /* QuotesCategoryTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +144,10 @@
 			dependencies = (
 			);
 			name = "Realm Database";
+			packageProductDependencies = (
+				CBA2B7432A683A1C008823A8 /* Realm */,
+				CBA2B7452A683A1C008823A8 /* RealmSwift */,
+			);
 			productName = "Realm Database";
 			productReference = CBA2B72B2A66BE31008823A8 /* Realm Database.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +176,9 @@
 				Base,
 			);
 			mainGroup = CBA2B7222A66BE31008823A8;
+			packageReferences = (
+				CBA2B7422A683A1C008823A8 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = CBA2B72C2A66BE31008823A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +206,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBA2B7332A66BE31008823A8 /* ViewController.swift in Sources */,
+				CB7A65FE2A6C447F007F825B /* CategoryList.swift in Sources */,
 				CBA2B72F2A66BE31008823A8 /* AppDelegate.swift in Sources */,
+				CBA2B7592A699F27008823A8 /* QuotesListTableViewController.swift in Sources */,
+				CBA2B7572A698CFD008823A8 /* QuoteViewController.swift in Sources */,
+				CB7A66002A6C4D22007F825B /* ChuckNorrisURL.swift in Sources */,
+				CBA2B7522A695F6A008823A8 /* QuoteResponse.swift in Sources */,
+				CBA2B7542A6965CA008823A8 /* RealmService.swift in Sources */,
+				CBA2B74B2A684C22008823A8 /* QuoteRealm.swift in Sources */,
 				CBA2B7312A66BE31008823A8 /* SceneDelegate.swift in Sources */,
+				CBA2B74D2A684EDA008823A8 /* Category.swift in Sources */,
+				CBA2B7502A69585C008823A8 /* NetworkService.swift in Sources */,
+				CBA2B75B2A69AAD7008823A8 /* CategoriesTableViewController.swift in Sources */,
+				CB7A66042A6D7C50007F825B /* QuotesCategoryTableViewController.swift in Sources */,
+				CB7A66022A6D50FE007F825B /* QuoteViewController+Picker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +377,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,8 +404,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +440,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CBA2B7422A683A1C008823A8 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CBA2B7432A683A1C008823A8 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBA2B7422A683A1C008823A8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		CBA2B7452A683A1C008823A8 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBA2B7422A683A1C008823A8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CBA2B7232A66BE31008823A8 /* Project object */;
 }

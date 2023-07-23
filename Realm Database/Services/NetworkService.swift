@@ -17,16 +17,16 @@ class NetworkService {
     
     static let shared = NetworkService()
     
-    private let urlString = "https://api.chucknorris.io/jokes/random"
+    private let urlString = ChuckNorrisURL.urlString
     
     private init() { }
     
-    func fetchRandomQuote(complition: @escaping (Result<QuoteResponse, NetworkError>) -> Void ) {
-            guard let url = URL(string: urlString) else {
-                complition(.failure(.urlError))
-                return
-            }
-            
+    func fetchRandomQuote(fromURL url: String, complition: @escaping (Result<QuoteResponse, NetworkError>) -> Void ) {
+        guard let url = URL(string: url) else {
+            complition(.failure(.urlError))
+            return
+        }
+        
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             if let error = error {
                 print("DataTask error: \(error.localizedDescription)")
@@ -35,20 +35,20 @@ class NetworkService {
             }
             
             guard let data = data else {
-                print("Empry Data")
+                print("Empty Data")
                 complition(.failure(.dataLoadingError))
                 return
             }
             
             do {
                 let decoder = JSONDecoder()
+                decoder.keyDecodingStrategy = .convertFromSnakeCase
                 let quote = try decoder.decode(QuoteResponse.self, from: data)
                 complition(.success(quote))
             } catch {
                 print("Decoding error : \(error)")
                 complition(.failure(.decodingError))
             }
-            
         }
         task.resume()
     }

@@ -8,9 +8,12 @@
 import Foundation
 
 struct QuoteResponse: Codable {
+    let categories: [String]?
+    let created_at: String?
+    let icon_url: URL?
     let id: String
-//    let icon_url: String
-//    let url: String
+    let updated_at: String?
+    let url: URL
     let value: String
-    let category: [String]?
 }
+

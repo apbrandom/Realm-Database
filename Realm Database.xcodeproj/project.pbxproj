@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB7A65FE2A6C447F007F825B /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A65FD2A6C447F007F825B /* CategoryList.swift */; };
+		CB7A66002A6C4D22007F825B /* ChuckNorrisURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A65FF2A6C4D22007F825B /* ChuckNorrisURL.swift */; };
+		CB7A66022A6D50FE007F825B /* QuoteViewController+Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A66012A6D50FE007F825B /* QuoteViewController+Picker.swift */; };
+		CB7A66042A6D7C50007F825B /* QuotesCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A66032A6D7C50007F825B /* QuotesCategoryTableViewController.swift */; };
 		CBA2B72F2A66BE31008823A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B72E2A66BE31008823A8 /* AppDelegate.swift */; };
 		CBA2B7312A66BE31008823A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B7302A66BE31008823A8 /* SceneDelegate.swift */; };
 		CBA2B7362A66BE31008823A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2B7342A66BE31008823A8 /* Main.storyboard */; };
@@ -21,9 +25,14 @@
 		CBA2B7542A6965CA008823A8 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B7532A6965CA008823A8 /* RealmService.swift */; };
 		CBA2B7572A698CFD008823A8 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B7562A698CFD008823A8 /* QuoteViewController.swift */; };
 		CBA2B7592A699F27008823A8 /* QuotesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B7582A699F27008823A8 /* QuotesListTableViewController.swift */; };
+		CBA2B75B2A69AAD7008823A8 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2B75A2A69AAD7008823A8 /* CategoriesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB7A65FD2A6C447F007F825B /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		CB7A65FF2A6C4D22007F825B /* ChuckNorrisURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisURL.swift; sourceTree = "<group>"; };
+		CB7A66012A6D50FE007F825B /* QuoteViewController+Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuoteViewController+Picker.swift"; sourceTree = "<group>"; };
+		CB7A66032A6D7C50007F825B /* QuotesCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesCategoryTableViewController.swift; sourceTree = "<group>"; };
 		CBA2B72B2A66BE31008823A8 /* Realm Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realm Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA2B72E2A66BE31008823A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBA2B7302A66BE31008823A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +47,7 @@
 		CBA2B7532A6965CA008823A8 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 		CBA2B7562A698CFD008823A8 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
 		CBA2B7582A699F27008823A8 /* QuotesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListTableViewController.swift; sourceTree = "<group>"; };
+		CBA2B75A2A69AAD7008823A8 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +101,8 @@
 				CBA2B74A2A684C22008823A8 /* QuoteRealm.swift */,
 				CBA2B74C2A684EDA008823A8 /* Category.swift */,
 				CBA2B7512A695F6A008823A8 /* QuoteResponse.swift */,
+				CB7A65FD2A6C447F007F825B /* CategoryList.swift */,
+				CB7A65FF2A6C4D22007F825B /* ChuckNorrisURL.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -108,7 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				CBA2B7562A698CFD008823A8 /* QuoteViewController.swift */,
+				CB7A66012A6D50FE007F825B /* QuoteViewController+Picker.swift */,
 				CBA2B7582A699F27008823A8 /* QuotesListTableViewController.swift */,
+				CBA2B75A2A69AAD7008823A8 /* CategoriesTableViewController.swift */,
+				CB7A66032A6D7C50007F825B /* QuotesCategoryTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -191,15 +206,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7A65FE2A6C447F007F825B /* CategoryList.swift in Sources */,
 				CBA2B72F2A66BE31008823A8 /* AppDelegate.swift in Sources */,
 				CBA2B7592A699F27008823A8 /* QuotesListTableViewController.swift in Sources */,
 				CBA2B7572A698CFD008823A8 /* QuoteViewController.swift in Sources */,
+				CB7A66002A6C4D22007F825B /* ChuckNorrisURL.swift in Sources */,
 				CBA2B7522A695F6A008823A8 /* QuoteResponse.swift in Sources */,
 				CBA2B7542A6965CA008823A8 /* RealmService.swift in Sources */,
 				CBA2B74B2A684C22008823A8 /* QuoteRealm.swift in Sources */,
 				CBA2B7312A66BE31008823A8 /* SceneDelegate.swift in Sources */,
 				CBA2B74D2A684EDA008823A8 /* Category.swift in Sources */,
 				CBA2B7502A69585C008823A8 /* NetworkService.swift in Sources */,
+				CBA2B75B2A69AAD7008823A8 /* CategoriesTableViewController.swift in Sources */,
+				CB7A66042A6D7C50007F825B /* QuotesCategoryTableViewController.swift in Sources */,
+				CB7A66022A6D50FE007F825B /* QuoteViewController+Picker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,8 +377,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,8 +404,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

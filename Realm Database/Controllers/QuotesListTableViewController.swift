@@ -48,11 +48,16 @@ class QuotesListTableViewController: UITableViewController {
         var configuration = UIListContentConfiguration.cell()
         
         if let quote = quotes?[indexPath.row] {
+            let formatter = DateFormatter()
+            formatter.dateStyle = .medium
+            formatter.timeStyle = .short
+            let dateString = formatter.string(from: quote.createdAt)
+            
             configuration.text = quote.value
+            configuration.secondaryText = dateString
         }
-        cell.contentConfiguration = configuration
         
-        cell.selectionStyle = .none
+        cell.contentConfiguration = configuration
         return cell
     }
 }

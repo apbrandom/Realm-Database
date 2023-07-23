@@ -82,11 +82,11 @@
                             <outlet property="delegate" destination="uAd-Kc-Ks5" id="ruQ-EQ-9YK"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="" image="list.bullet.rectangle" catalog="system" selectedImage="list.bullet.rectangle.fill" id="How-sj-K8o"/>
+                    <navigationItem key="navigationItem" id="KZR-Rp-Rmn"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JyC-Kg-H3y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="47" y="744"/>
+            <point key="canvasLocation" x="47" y="1494"/>
         </scene>
         <!--Categories Table View Controller-->
         <scene sceneID="yjB-4i-sCt">
@@ -161,7 +161,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="0y5-Yk-waR"/>
-                        <segue destination="uAd-Kc-Ks5" kind="relationship" relationship="viewControllers" id="tuk-p8-VRD"/>
+                        <segue destination="wWj-WU-Gw4" kind="relationship" relationship="viewControllers" id="tuk-p8-VRD"/>
                         <segue destination="amW-Nb-kgE" kind="relationship" relationship="viewControllers" id="ct1-CH-Bl1"/>
                     </connections>
                 </tabBarController>
@@ -186,7 +186,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6q2-BQ-cHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="942.74809160305335" y="743.66197183098598"/>
+            <point key="canvasLocation" x="1869.4656488549617" y="743.66197183098598"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qwp-cp-TSG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wWj-WU-Gw4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="list.bullet.rectangle" catalog="system" selectedImage="list.bullet.rectangle.fill" id="How-sj-K8o"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mra-OF-KJF">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uAd-Kc-Ks5" kind="relationship" relationship="rootViewController" id="9Fn-2t-V8Q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z0y-gk-NUj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="743.66197183098598"/>
         </scene>
     </scenes>
     <resources>
